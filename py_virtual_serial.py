@@ -4,7 +4,7 @@ import time
 from serial import Serial
 from tkinter import *
 
-serialPort="COM4"
+serialPort="COM5"
 baudrate = 115200
 
 try:
@@ -28,7 +28,8 @@ def sup(val):
     s.write(encodedMessage)
     
     #Wait 1 sec
-    time.sleep(1)
+#    time.sleep(1)
+
 
 #make TK
 root = Tk()
